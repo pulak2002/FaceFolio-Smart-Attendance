@@ -1,4 +1,4 @@
-# Automatic-Attendance-Marking-Using-Facial-Recognition-Technique
+# Automatic-Attendance-Marking-Using-Facial-Recognition-Technique (optimized using Threads)
 Attendance marking in a classroom can be a tedious and time-consuming task,  especially when dealing with many students. Marking attendance by following  traditional methods have been known to lack reliability
 
 The proposed system utilizes facial recognition technology to automate the process of attendance marking, resulting in a reduction of workload for educators compared to traditional methods. The implemented software-based attendance system for any 
