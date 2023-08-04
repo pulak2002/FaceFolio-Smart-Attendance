@@ -18,16 +18,7 @@ of attendance marking is time-consuming, need additional staff. Moreover, the da
 ● The software should be user-friendly and easy to use for teachers and administrative staff
 
 ## System Design
-The project will include separate modules for face detection, face recognition, and attendance recording.
-To detect faces, the project will use advanced Python classifiers such as OpenCV and process the video feed in real time.
-The face recognition module will use machine learning algorithms to match the detected faces with the images of registered students in a database.
-The attendance recording module will keep track of attendance in real time and store the data in an Excel sheet, which can be accessed and modified as required.
-The project will have a Graphical User Interface (GUI) to display attendance records, real-time updates, and any error messages.
-The GUI will be designed using a framework such as PyQt or Tkinter and will provide a user-friendly interface for teachers and administrative staff.
-The project will include a database to store the registered student's details and images.
-The project will incorporate error-handling modules to deal with potential issues, such as network failure, camera failure, or low lighting conditions.
-The system will be designed to work with a single camera for starters and then it will be extended with multiple cameras, and attendance records from all cameras will be stored in a centralized database.
-The project will include measures to ensure data privacy and security, such as password-protected access to the database.
+This project makes use of the built-in Python library "face_recognition" whose foundation is a well-known deep learning model. In this work, we build a facial recognition system to record and store employee attendance. The intention is to use the OpenCV module to capture video frames and then encode them using face_recognition module so that they match the registered faces. The matching criteria use similarity scores and distances in order to predict the person. If an employee is identified, their registration number is displayed; otherwise, it says "Unknown" if they are not.  The entire procedure is optimised using threads so that the old frames can be processed in parallel and the new frames can be continuously captured. The time stamp and the marked attendance are automatically saved in a csv file. The work is capable of using GPU power to speed up the process. Duplicate entries can be handled automatically. The current work can identify up to three faces at once, but if more computing power is available, it can identify more faces. The project has a user -friendly interface for its easier use. 
 
 ## Results
 
