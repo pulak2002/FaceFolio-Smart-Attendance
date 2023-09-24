@@ -1,7 +1,7 @@
-# Automatic-Attendance-Marking-Using-Facial-Recognition-Technique (optimized using Threads)
+# FaceFolio: Smart Attendance  (optimized using Threads)
 Attendance marking in a classroom can be a tedious and time-consuming task, especially when dealing with many students. Marking attendance by following  traditional methods has been known to lack reliability
 The entire procedure is optimized using threads so that the old frames can be processed in parallel and the new frames can be continuously captured. The proposed system utilizes facial recognition technology to automate the process of attendance marking, resulting in a reduction of workload for educators compared to traditional methods. Implementing a software-based attendance system for any organization lowers the hardware cost, which is a great accomplishment and greatly benefits society. This is more affordable and practical than any other biometric system. The entire system is automated, and hence no additional staff is required to monitor the attendance procedure. The implemented system not only lowers costs but also increases operational efficiency. Since time plays an important factor in any organization, the project aims at preventing time loss and providing it for other productive purposes. Manual attendance systems can be prone to human errors, as in the case of institutes, there are many cases of pseudo-attendance commonly called ‘proxy.’ A refined version of the project will deliver satisfactory accuracy with minimal errors. The traditional methods 
-of attendance marking are time-consuming, and need additional staff. Moreover, the data can easily be manipulated.
+of attendance marking are time-consuming and need additional staff. Moreover, the data can easily be manipulated.
 
 ## Software Requirements
 ● The project will use the Python programming language.
